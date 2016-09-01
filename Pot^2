@@ -1,0 +1,156 @@
+/*Programa 1:
+Usando el Operador Lógico And & */
+
+#include<stdio.h>
+
+int main()
+{
+	int a=2,b;
+	int contador=0,resul =1,resul2;
+	
+	printf("Por favor introduzca un  numero para el exponente \n");
+	scanf("%d",&b);
+	
+	printf("El valor de %d ^ %d es = \n ",a,b);
+	
+	for(contador=0;contador<b;contador++){
+		if(b>contador & b!=9999999){
+			resul2=resul;
+			resul=resul*a;
+		}
+	}
+	printf("%d",resul);
+	return 0;
+}
+
+
+/*Programa 2:
+Usando el Operador Lógico OR | */
+
+
+#include<stdio.h>
+
+int main()
+{
+	int a=2,b;
+	int contador=0,resul =1,resul2;
+	
+	printf("Por favor introduzca un  numero para el exponente \n");
+	scanf("%d",&b);
+	
+	printf("El valor de %d ^ %d es = \n ",a,b);
+	
+	for(contador=0;contador<b;contador++){
+		if(b>contador | b!='  ' ){
+			resul2=resul;
+			resul=resul*a;
+		}
+	}
+	printf("%d",resul);
+	return 0;
+}
+	
+/*Programa 3 usando XOR ^ */
+
+#include<stdio.h>
+
+int main()
+{
+	int a,b;
+	int contador=888^888,resul =0^1,resul2;
+	a=0^2;
+	
+	printf("Por favor introduzca un  numero para el exponente\n");
+	scanf("%d",&b);
+	
+	printf("El valor de %d ^ %d es = \n ",a,b);
+	
+	for(contador=0;contador<b;contador++){
+		if(b>contador & b<=2^99999999){
+			resul2=resul;
+			resul=resul*a;
+		}
+	}
+	printf("%d",resul);
+	return 0^1;
+}
+
+
+
+/*Programa 4:
+Usando el Operador Lógico ~ */
+
+
+#include<stdio.h>
+
+int main()
+{
+	int a=~-3+~-1,b;
+	int contador=~-1,resul=~-2,resul2;
+	
+	printf("Por favor introduzca un  numero para el exponente \n");
+	scanf("%d",&b);
+	
+	printf("El valor de %d ^ %d es = \n ",a,b);
+	
+	for(contador=0;contador<b;contador++){
+		if(b>contador | b!='  ' ){
+			resul2=resul;
+			resul=resul*a;
+		}
+	}
+	printf("%d",resul);
+	return ~-1;
+}
+
+/*Programa 5:
+Usando el Operador >>  */
+
+
+#include<stdio.h>
+
+int main()
+{
+	int a=4>>1,b;
+	int contador=4>>3,resul =4>>2,resul2;
+	
+	printf("Por favor introduzca un  numero para el exponente \n");
+	scanf("%d",&b);
+	
+	printf("El valor de %d ^ %d es = \n ",a,b);
+	
+	for(contador=0;contador<b;contador++){
+		if(b>contador | b!='  ' ){
+			resul2=resul;
+			resul=resul*a;
+		}
+	}
+	printf("%d",resul);
+	return 5>>3;
+}
+
+/*Programa 6:
+Usando el Operador <<  */
+
+
+#include<stdio.h>
+
+int main()
+{
+	int a=1<<1,b;
+	int contador=0<<1,resul =1<<0,resul2;
+	
+	printf("Por favor introduzca un  numero para el exponente \n");
+	scanf("%d",&b);
+	
+	printf("El valor de %d ^ %d es = \n ",a,b);
+	
+	for(contador=0<<0;contador<b;contador++){
+		if(b>contador | b!='  ' ){
+			resul2=resul;
+			resul=resul*a;
+		}
+	}
+	printf("%d",resul);
+	return 0;
+}
